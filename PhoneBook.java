@@ -37,7 +37,7 @@ public class PhoneBook {
 
     public void printGroup() {
         for (int i = 0; i < groupList.size(); i++) {
-            System.out.println((i + 1) + groupList.get(i));
+            System.out.println((i + 1) + " " + groupList.get(i));
         }
     }
 }
